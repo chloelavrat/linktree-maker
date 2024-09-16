@@ -97,11 +97,13 @@ st.subheader("Fill out the details to generate your custom HTML page:")
 
 # Using streamlit.form to organize the inputs
 with st.form("profile_form"):
-    name = st.text_input('Full Name', 'John Doe')
+    name = st.text_input('Full Name', 'Ada Lovelace')
     description = st.text_input(
-        'Description', 'Dream maker')
-    banner_photo = st.text_input('Banner Photo URL', 'banner.jpeg')
-    profile_photo = st.text_input('Profile Photo URL', 'profil.jpeg')
+        'Description', 'First programmer on Earth')
+    banner_photo = st.text_input(
+        'Banner Photo URL', 'https://openfileserver.chloelavrat.com/stocks/web-id/banner.jpg')
+    profile_photo = st.text_input(
+        'Profile Photo URL', 'https://openfileserver.chloelavrat.com/stocks/web-id/ada-lovelace.jpg')
     linkedin = st.text_input('LinkedIn URL', 'https://www.linkedin.com')
     instagram = st.text_input('Instagram URL', 'https://www.instagram.com')
     twitter = st.text_input('Twitter URL', 'https://x.com')
