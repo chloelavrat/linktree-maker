@@ -102,7 +102,7 @@ html_template = """
 """
 
 # Streamlit App
-st.image("./banner.png")
+st.image("./assets/banner.png")
 
 st.markdown("""Create professional-looking social media link cards with our easy-to-use **Linktree maker**!
             Simply fill in your profile details, add links to your social media profiles, and click the 'Generate HTML' button to download your customized link card as an HTML file. Perfect for personal branding, online presence, or promoting your work on various platforms!""")

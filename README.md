@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="readme.png" alt="Banner" style="border-radius: 17px; width: 100%; max-width: 800px; height: auto;">
+  <img src="./assets/readme.png" alt="Banner" style="border-radius: 17px; width: 100%; max-width: 800px; height: auto;">
 </div>
 
 <h3 align="center">
@@ -23,7 +23,6 @@
 ## Features
 
 - **Easy-to-use interface**: Fill in your profile details and add links to your social media profiles.
-
 - **Customizable design**: Choose from various templates and styles to create a unique look for your link card.
 
 ## How it Works
