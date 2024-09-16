@@ -1,4 +1,15 @@
 import streamlit as st
+from footer import footer
+
+# Set up page
+st.set_page_config(
+    page_title="Linktree maker",
+    page_icon="🔗",
+    layout="centered")
+
+st.markdown(
+    "<style>#MainMenu {visibility: hidden;}</style>", unsafe_allow_html=True)
+st.markdown(footer, unsafe_allow_html=True)
 
 # HTML Template
 html_template = """
