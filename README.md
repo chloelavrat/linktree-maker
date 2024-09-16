@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-  <b><a href="">Online App</a></b>
+  <b><a href="https://linktree-maker.streamlit.app">Online App</a></b>
   •
   <b><a href="https://youtu.be/MaheHhnvvrU">Demo Video</a></b>
 </h3>
